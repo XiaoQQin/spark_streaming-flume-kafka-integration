@@ -66,7 +66,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>WordCount</mainClass>
+                            <mainClass>KafkaWordCount</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
