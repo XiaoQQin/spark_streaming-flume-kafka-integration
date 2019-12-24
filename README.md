@@ -61,7 +61,7 @@ spark-2.1.1
 you must change the hostname to your owm.  
 if you want to test locally,you should change the KafkaWordCount
 ```
-bootstrap.servers" -> "hadoop132:9092,
+bootstrap.servers" -> "hadoop132:9092",
 val topics = Array("streamingtopic")
 ```
 you can use Maven->Lifecycle->package to package the project to jars and run in cluster.
